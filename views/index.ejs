@@ -1,21 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
+<% include layout/header.ejs %>
 
-<head>
-    <meta charset="UTF-8">
-    <title>Document</title>
-</head>
+    <h3>Hello!</h3>
 
-<body>
-    <h1>Hello from ejs</h1>
-    <ul>
-        <% arr.forEach(function(item){ %>
-            <li>
-                <%= item%>
-            </li>
-            <% }); %>
-    </ul>
-    <p><a href="/create">Go to form</a></p>
-</body>
-
-</html>
+    <% include layout/footer.ejs %>
