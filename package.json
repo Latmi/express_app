@@ -5,7 +5,7 @@
   "author": "Latmi <sbezuglii@mail.ru>",
   "license": "MIT",
   "scripts": {
-    "start": "node index.js",
+    "start": "PORT=3001 node index.js",
     "dev": "nodemon index.js"
   },
   "devDependencies": {
@@ -17,6 +17,8 @@
     "node": ">=6.0.0"
   },
   "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
     "express": "^4.16.3"
   }
 }
