@@ -1,0 +1,22 @@
+{
+  "name": "cyprus-event-new",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Latmi <sbezuglii@mail.ru>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "devDependencies": {
+    "eslint": "^5.3.0",
+    "eslint-plugin-node": "^7.0.1",
+    "nodemon": "^1.18.3"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
